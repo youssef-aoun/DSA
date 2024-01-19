@@ -2,8 +2,8 @@ package datastructures.queue;
 
 public class Queue {
 
-    Node front, back;
-    int length;
+    private Node front, back;
+    private int length;
 
     public Queue(int value) {
         Node newNode = new Node(value);
