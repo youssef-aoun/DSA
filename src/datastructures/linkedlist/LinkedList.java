@@ -196,7 +196,7 @@ public class LinkedList {
 
     public void getHead() {
         if (head == null) {
-            System.out.println("Head: null");
+            System.out.println("Head: null value");
         } else {
             System.out.println("Head: " + head.value);
         }
